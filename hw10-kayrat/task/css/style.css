@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.locations{
+	background: #ccc;
+}
+.locations .container{
+	width: 900px;
+	background: #fff;
+	padding: 45px 75px 96px 63px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.locations .title{
+	margin-bottom: 20px;
+}
+.locations .title h3{
+	margin-bottom: 36px;
+}
+.locations .content table{
+	
+}
+.locations .content table td .name{
+	width: 260px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.locations .content table td .comment_TD{
+	width: 50px;
+}
+.locations .content table td .comment_TD a{
+	background: url();
+	display: block;
+	text-align: center;
+}
+.locations .content table td .location_TD{
+	width: 50px;
+}

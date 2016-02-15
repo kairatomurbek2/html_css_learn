@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 103px;
+	background-image: url(../images/bg-header.jpg);
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	margin: 36px 5px;
+}
+.menu{
+	float: right;
+	margin: 40px 0;
+}
+.menu ul li{
+	display: inline;
+	padding: 25px;
+}
+.menu ul li a{
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.section{
+	margin-bottom: 80px;
+}
+.section div h2{
+	font-size: 40px;
+    text-align: center;
+    margin-top: 77px;
+    line-height: 68px;
+}
+.section .col{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 77px;
+}
+.row{
+	width: 100%;
+}
+.block-info{
+	width: 33%;
+	display: inline-block;
+}
+.block-info img{
+	margin-left: 136px;
+}
+.block-info span{
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+	line-height: 54px;
+}
+.block-info p{
+	font-size: 15px
+}
+.porfolio-block	{
+	background: #f7f7f7;
+	padding-bottom: 88px;
+}
+.porfolio-block	h2{
+	font-size: 40px;
+	line-height: 75px;
+	text-align: center;
+}
+.porfolio-block	.col{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 77px;
+}
+.porfolio{
+	width: 33%;
+	display: inline-block;
+}
+.md{
+	background: #fff;
+    width: 291px;
+    height: 373px;
+}
+.md p{
+	font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.md span{
+	font-size: 15px;
+	padding-left: 109px;
+}
+footer{
+	background: #222222;
+	height: 91px;
+}
+.copy{
+	width: 30%;
+	display: inline-block;
+}
+.copy p{
+	color: #555555;
+	margin-top: 33px;
+}
+.copy a{
+	color: #555555;
+	margin-top: 33px;
+	text-decoration: none;
+}
+.social{
+	width: 60%;
+	display: inline;
+}
+.social img{
+    margin-bottom: -17px;
+}

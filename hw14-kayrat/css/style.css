@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 14px Arial, Helvetica, sans-serif;
+}
+.container{
+	width: 800px;
+	background: #ddd;
+	margin: 0 auto;
+	height: 600px;
+}
+.div{
+	height: 200px;
+}
+.block{
+	background: #fff;
+	width: 400px;
+	margin: 0 auto;
+}
+.form-action{
+	width: 200px;
+	margin: 8px auto;
+}
+.field{
+	margin: 10px auto;
+}
+.join {
+	padding: 200px;
+}
+.join a{
+	color: #000;
+	font-size: 22px;
+	position: relative;
+}
+.join a::before{
+	content: "";
+	background-image: url(../img/warning-icon.png);
+	position: absolute;
+	top: 5px;
+	left: -40px;
+	width: 30px;
+	height: 30px;
+	display: block;
+
+}
+.join a::after{
+	content: "text";
+}

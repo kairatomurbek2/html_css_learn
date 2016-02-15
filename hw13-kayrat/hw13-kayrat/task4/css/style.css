@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background: #fff;
+	min-width: 840px;
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+.form-block{
+	width: 305px;
+	background: #e9e6e6;
+    position: relative;
+    padding: 33px 33px;
+}
+.form-block .in{
+	padding: 12px 23px;
+	background: #fff;
+}
+.form-block h3{
+	color: #475965;
+	font-size: 16px;
+	padding-bottom: 24px;
+}
+.form-block .form-row{
+	padding: 0 0 20px;
+}
+.form-block .inp-field-username{
+	display: inline-block;
+    width: 228px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0 0 0 50px;
+    background: #fff url(../img/icon-user.png) 14px 50% no-repeat;
+    border: 1px solid #d5dce1;
+    overflow: hidden;
+}
+.form-block .inp-field-password{
+	display: inline-block;
+    width: 228px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0 0 0 50px;
+    background: #fff url(../img/icon-password.png) 17px 50% no-repeat;
+    border: 1px solid #d5dce1;
+    overflow: hidden;
+}
+
+.form-block input[type="text"], .form-block input[type="password"] {
+	color: #ced6dc;
+    border: 1px solid #d5dce1;
+    font-size: 13px;
+    width: 204px;
+    height: 44px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0 18px;
+}
+.form-block button{
+	width: 228px;
+	height: 41px;
+	border: none;
+	text-align: center;
+	color: #fff;
+	background: #21b8c6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.form-block .member{
+	padding: 28px 0;
+	color: #7d8e9a;
+	font-size: 13px;
+}
+.form-block a{
+	    color: #475965;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    background: url(../img/icon.png) 90px 5px no-repeat;
+    width: 110px;

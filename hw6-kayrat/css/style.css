@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+.row{
+	padding: 8px 0 10px;
+}
+.btn{
+	height: 30px;
+	width: 104px;
+	border: 1px #bb524f solid;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	color: #b42825;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background: #e37875; / Old browsers /
+	background: -moz-linear-gradient(top,  #e37875 0%, #d04543 100%, #7db9e8 100%); / FF3.6-15 /
+	background: -webkit-linear-gradient(top,  #e37875 0%,#d04543 100%,#7db9e8 100%); / Chrome10-25,Safari5.1-6 /
+	background: linear-gradient(to bottom,  #e37875 0%,#d04543 100%,#7db9e8 100%); / W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ /
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e37875', endColorstr='#7db9e8',GradientType=0 ); / IE6-9 /
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(255, 255, 255, 1);
+	box-shadow:         0px 1px 1px 0px rgba(255, 255, 255, 1);
+	outline: none;
+	box-sizing: border-box; 
+}
+.btn:hover{
+	background: #da5a57;
+}
+.btn:active{
+	background: #d14845;
+}
+.btnclick{
+	height: 30px;
+	width: 104px;
+	border: 1px #9dbd18 solid;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	color: #9ebe19;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background: #c5de49; / Old browsers /
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(158, 190, 25, 0.3);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(158, 190, 25, 0.3);
+	box-shadow:         0px 1px 1px 0px rgba(158, 190, 25, 0.3);
+	outline: none;
+	box-sizing: border-box; 
+}
+.btnclick:hover{
+	background: #9ebe19;
+	color: #fff;
+}
+.btnclick:active{
+	background: #9ebe19;
+	color: #fff;
+}
+.download{
+	width: 291px;
+	height: 69px;
+	border: 1px #c6df4c solid;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	-webkit-border-radius: 34px;
+	-moz-border-radius: 34px;
+	border-radius: 34px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	box-sizing: border-box; 
+	background: rgb(175,226,63); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(175,226,63,1) 0%, rgba(101,163,32,1) 100%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(175,226,63,1) 0%,rgba(101,163,32,1) 100%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(175,226,63,1) 0%,rgba(101,163,32,1) 100%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afe23f', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.download:hover{
+	background: #9ebe19;
+	color: #fff;
+}
+.download:active{
+	background: #9ebe19;
+	color: #fff;
+}
+.btn3434{
+	width: 176px;
+	height: 52px;
+	border: 1px #bb524f solid;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	box-sizing: border-box; 
+}
+.profile
+{
+	width: 127px;
+    height: 46px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    white-space: nowrap;
+    background: #D04543;
+    padding: 0 1.5em;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 -3 0 #35a76e inset;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 0px 0px #b42825;
+    -moz-box-shadow: 0px 5px 0px 0px rgba(198, 68, 66, 0.75);
+    box-shadow: 0px 5px 0px 0px #b42825;
+}
+.profile {
+  font-family: 'Glyphicons Halflings';
+}
+.profile:before
+{
+    background: #b42825;
+    float: right;
+    width: 36px;
+    margin-right: -24px;
+    font-size: 1.5em;
+    padding: 0 .2em;
+    -moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    -moz-border-radius: .15em 0 0 .15em;
+    height: 46px;
+}
+ .profile:hover{
+	background: #b42825;
+    color: #fff;
+}
+.profile:active{
+	background: #b42825;
+    color: #fff;
+}
+.home
+{
+	width: 127px;
+    height: 46px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    white-space: nowrap;
+    background: #e7577a;
+    padding: 0 1.5em;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 -3 0 #35a76e inset;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 0px 0px rgb(207, 61, 96);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(207, 61, 96, 0.75);
+    box-shadow: 0px 5px 0px 0px rgb(207, 61, 96);
+}
+.home:before
+{
+    background: #df4c70;
+    float: right;
+    width: 36px;
+    margin-right: -24px;
+    font-size: 1.5em;
+    padding: 0 .2em;
+    -moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    -moz-border-radius: .15em 0 0 .15em;
+    height: 46px;
+}
+ .home:hover{
+	background: #df4c70;
+    color: #fff;
+}
+.home:active{
+	background: #df4c70;
+    color: #fff;
+}
+
+.add:before
+{
+    content: "\e008";
+}
+.love:before{
+	content: "\e243";
+}

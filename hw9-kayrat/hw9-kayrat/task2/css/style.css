@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    width: 840px;
+    margin: 0 auto;
+}
+.vacancies-block {
+    width: 237px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 33px;
+}
+.vacancies-block h3 {
+    font-size: 21px;
+    border-bottom: 2px solid #ccc;
+    background: url(../images/icon.png) 0 0 no-repeat;
+    padding: 0 0 10px 30px;
+}
+.vacancies-block ul {
+    list-style: none;
+    padding-top: 15px;
+}
+.vacancies-block li {
+    font-size: 12px;
+    line-height: 21px;
+    padding: 0 0 0 20px;
+    color: #7d7d7d;
+}
+.vacancies-block li:nth-child(1) {
+	background: url(../images/icon-check.png) 0 3px no-repeat;
+    padding: 0 0 0 20px;
+}
+.vacancies-block li a {
+    color: #131313;
+}

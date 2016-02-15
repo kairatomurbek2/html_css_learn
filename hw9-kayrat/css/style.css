@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-style: 14px;
+	background: #fff;
+	line-height: 1.3;
+	color: #180101;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+	width: 840px;
+	margin: 0 auto;
+}
+.contacts-block{
+	font-family: 'Roboto Condensed', arial, sans-serif;
+}
+.contacts{
+	width: 270px;
+	padding: 45px;
+
+}
+.contacts h3{
+	font-size: 23px;
+	padding: 1px 18px;
+}
+.contact-in{
+	border: 1px solid #dedede;
+	padding: 20px 5px 20px 20px;
+}
+.contacts dl{
+	font-size: 15px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.contacts dt, .contacts dd{
+	float: left;
+}
+.contacts dt{
+	width: 80px;
+}
+.contacts dd{
+	width: 150px;
+}
+.contacts dl span{
+	display: block;
+}
+.social a{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+}
+.social a.insta{
+	background: url(../images/ic-photo.jpg) 0 0 no-repeat;
+}
+.social a.gplus{
+	background: url(../images/ic-gplus.jpg) 0 0 no-repeat;
+}
+.social a.fb{
+	background: url(../images/ic-fb.jpg) 0 0 no-repeat;
+}
+.social a.vk{
+	background: url(../images/ic-wk.jpg) 0 0 no-repeat;
+}
+.social a.tw{
+	background: url(../images/ic-tw.jpg) 0 0 no-repeat;
+}

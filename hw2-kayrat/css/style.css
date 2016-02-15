@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+header{
+	background: #373c3f;
+	height: 80px;
+}
+.menu{
+	padding: 26px 0 0 53px;
+}
+.menu ul{
+
+}
+.menu ul li{
+	display: inline;
+	list-style: none;
+	margin: 0 10px;
+}
+.menu ul li a{
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+.awesome{
+	background-color: #16b1c4;
+	padding-left: 65px;
+	height: 300px;
+}
+.awesome h2{
+	color: #fff;
+	font-size: 37px;
+	padding-top: 65px;
+
+}
+.awesome a{
+	color: rgba(255, 255, 255, 0.55);
+	font-size: 20px;
+}
+.robbin{
+	background-color: #bc3184;
+}
+.ribbin_inner{
+	background-color: #27212d;
+	width: 600px;
+	height: 181px;
+}
+.ribbin_inner h2{
+	font-size: 30px;
+	color: #9282a0;
+	font-weight: normal;
+	padding-left: 65px;
+	line-height: 250px;
+}
+.image img{
+	width: 800px;
+}
+.blaz{
+	padding-left: 65px;
+	background-color: #ebebeb;
+	height: 350px;
+}
+.blaz a{
+	color: #088ca5;
+	font-size: 30px;
+	line-height: 44рх;
+}
+.blaz p{
+	color: #515151;
+	font-size: 24px;
+	line-height: 36рх;
+	margin-top: 15px;
+}

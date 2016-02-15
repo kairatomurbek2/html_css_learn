@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	background: #fff;
+	line-height: 1.3;
+	color: #444;
+}
+h1, h2, p{
+	color: #fff
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	height: 90px;
+	margin-top: 20px;
+}
+.header img{
+	width: 212px;
+	height: 45px;
+}
+
+.menu{
+	float: right;
+	margin: 20px 0 0 0;
+}
+.menu ul{
+
+}
+.menu ul li{
+	display: inline;
+	list-style: none;
+	margin: 0 15px;
+}
+.menu ul li a{
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.promo{
+	position: relative;
+	width: 100%;
+}
+.promo h1{
+	position: absolute;
+	font-size: 50px;
+	top: 250px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.promo p{
+	position: absolute;
+	font-size: 24px;
+	top: 300px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.service-logo{
+	position: relative;
+	width: 333px;
+	height: 190px;
+	background: #ddd;
+	margin-top: -4px;
+}
+.service-logo img{
+    position: absolute;
+    padding-top: 73px;
+}
+.service-pic{
+	position: absolute;
+	width: 333px;
+	height: 190px;
+	margin-top: -4px;
+	margin-left: 333px;
+	margin-top: -190px;
+}
+.service-pic img{
+    width: 315px;
+	height: 190px;
+}
+.donate{
+	position: absolute;
+	background: #9b242d;
+	width: 352px;
+	height: 190px;
+	margin-left: 648px;
+	margin-top: -190px;
+}
+.donate h2{
+	position: relative;
+	font-size: 40px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 67px;
+}
+.sign-wrap{
+	overflow: hidden;
+	background: #47a652; 
+	height: 313px;
+}
+.sign-up{
+	width: 648px;
+	float: left;
+	text-align: right;
+}
+.sign-up .inner{
+	padding: 70px 49px 0 0;
+}
+.inner p{
+	padding: 10px;
+}
+.sign-wrap img{
+	float: right;
+	vertical-align: bottom;
+}
+.subcribe{
+	width: 124px;
+    height: 43px;
+    /*border: 1px #bb524f solid;*/
+    background: #358e3e;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.block{
+	overflow: hidden;
+}
+.block .facebook{
+	width: 352px;
+	float: right;
+	background: #3b5997;
+	height: 313px;
+}
+.facebook .fb-block{
+	text-align: center;
+	padding: 107px;
+}
+.footer-menu{
+	overflow: hidden;
+	background: #383838;
+	height: 25px;
+	margin-top: -4px;
+	padding: 46px 114px;
+}
+.footer-menu ul li{
+	display: inline;
+	list-style: none;
+    float: none;
+	padding: 0 21px;
+}
+.footer-menu ul li a{
+	font-size: 14px;
+	color: #949494;
+	text-transform: uppercase;
+	text-decoration: none;
+}
