@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+body{
+	font-family: Arial;
+}
+.container{
+	width: 426px;
+	height: 307px;
+	margin: 0 auto;	
+	background: #2e353f;
+	margin-top: 58px;
+	color: #fff;
+    
+}
+.row {
+	padding: 29px;
+	padding-top: 28px;
+}
+.row h1{
+    font-size: 28.08px;
+    font-family: Arial;
+}
+.row p{
+    
+}
+.block{
+	background: url(../images/icon-home.png) 0 0 no-repeat;
+	padding: 0 45px;
+    margin-left: 31px;
+}
+.footer{
+
+}
+.footer-menu{
+	float: left;
+    margin: 32px 27px;
+}
+.footer-menu ul li{
+	display: inline;
+    padding: 6px;
+}
+.footer-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}

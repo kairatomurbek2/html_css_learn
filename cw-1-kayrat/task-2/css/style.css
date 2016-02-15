@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+body{
+	font-family: Arial;
+}
+h1{
+	font-style: 23px;
+}
+.container{
+	width: 1002px;
+	margin: 98px auto;	
+	
+}
+.row{
+	width: 100%;
+}
+.properties{
+	display: inline-block;
+    width: 49%;
+    background: #e2f8ff;
+    height: 293px;
+    float: left;
+}
+.properties .info {
+	padding-top: 41px;
+	text-align: center;
+	padding-left: 43px;
+}
+.info h3{
+	padding-left: 49px;
+    font-size: 23px;
+}
+.info p{
+	padding-left: 158px;
+    background: url(../images/icon-lamp.png) 0 0 no-repeat;
+    font-size: 16px;
+    line-height: 45px;
+    color: #515151;
+}
+.properties button{
+	margin-left: 210px;
+}
+.btn-blue{
+	border: none;
+	width: 187px;
+	height: 53px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 6px;
+	background: #26a6d1;
+}
+.buyers{
+	display: inline-block;
+	width: 50%;
+	background: #f5f9eb;
+	height: 293px;
+}
+.buyers .info-block {
+	padding-top: 41px;
+	text-align: center;
+	padding-left: 43px;
+}
+.info-block h3{
+	padding-left: 49px;
+    font-size: 23px;
+}
+.info-block p{
+	padding-left: 158px;
+    background: url(../images/icon-cash.png) 0 0 no-repeat;
+    font-size: 16px;
+    line-height: 45px;
+    color: #515151;
+}
+.buyers button{
+	margin-left: 210px;
+}
+.btn-primary{
+	border: none;
+	width: 187px;
+	height: 53px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 6px;
+	background: #add136;
+}
